@@ -61,5 +61,7 @@ public class Introducao {
 
         int resultado = soma(1, 4);
         System.out.println("Resultado da soma: " + resultado);
+
+        entrada.close();
     }
 }
