@@ -1,10 +1,8 @@
-package Aula2.Atividade;
-
-public class PontoA {
+public class Ponto {
     public double x;
     public double y;
 
-    public PontoA(double x, double y){
+    public Ponto(double x, double y){
         this.x = x;
         this.y = y;
     }
