@@ -1,4 +1,4 @@
-package Aula2;
+package aula2;
 
 public class Relacionamento {
     public void conhecer(Pessoa p1, Pessoa p2){

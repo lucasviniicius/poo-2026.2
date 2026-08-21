@@ -1,3 +1,5 @@
+package aula3;
+
 public class Main {
     public static void main(String[] Args){
         Funcionario f1 = new Funcionario("Lucas", 3000.0, Cargo.GERENTE);

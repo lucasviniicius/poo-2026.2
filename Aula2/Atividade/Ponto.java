@@ -1,3 +1,5 @@
+package aula2.atividade;
+
 public class Ponto {
     public double x;
     public double y;

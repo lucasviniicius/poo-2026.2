@@ -1,3 +1,5 @@
+package aula3;
+
 public enum Cargo {
     ESTAGIARIO(0.05),
     ANALISTA(0.08),
