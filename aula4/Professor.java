@@ -1,7 +1,5 @@
 package aula4;
 
-import java.util.Scanner;
-
 public class Professor {
     private String nome;
     private int idade;
