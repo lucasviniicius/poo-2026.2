@@ -44,7 +44,7 @@ public class Cliente {
         this.qtdProdutos = qtdProdutos;
     }
 
-    public String adicionarProduto(Produto[] carrinho, Produto novoProduto){
+    public String adicionarProduto(Produto novoProduto){
         if(qtdProdutos >= 10){
             return "Carrinho cheio.";
         }
@@ -57,7 +57,7 @@ public class Cliente {
         return "Produto adicionado.";
     }
 
-    public String removerProduto(Produto[] carrinho, int posicao){
+    public String removerProduto(int posicao){
         Produto produto = carrinho[posicao];
 
         for(int i = posicao; i < qtdProdutos - 1; i++){
@@ -70,7 +70,7 @@ public class Cliente {
         return "Produto removido.";
     }
 
-    public String comprar(Produto[] carrinho){
+    public String comprar(){
         double soma = 0;
 
         for(int i = 0; i < qtdProdutos; i++){

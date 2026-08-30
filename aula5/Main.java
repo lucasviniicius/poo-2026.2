@@ -10,12 +10,12 @@ public class Main {
 
         Cliente c1 = new Cliente("c1", true, carrinho);
 
-        System.out.println(c1.adicionarProduto(carrinho, p3));
-        System.out.println(c1.adicionarProduto(carrinho, p2));
-        System.out.println(c1.adicionarProduto(carrinho, p1));
+        System.out.println(c1.adicionarProduto(p3));
+        System.out.println(c1.adicionarProduto(p2));
+        System.out.println(c1.adicionarProduto(p1));
         System.out.println("Quantidade de Produtos: "+ c1.getQtdProdutos());
-        System.out.println(c1.removerProduto(carrinho, 1));
+        System.out.println(c1.removerProduto(1));
         System.out.println("Quantidade de Produtos: "+ c1.getQtdProdutos());
-        System.out.println(c1.comprar(carrinho));
+        System.out.println(c1.comprar());
     }
 }
