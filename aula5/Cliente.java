@@ -58,8 +58,6 @@ public class Cliente {
     }
 
     public String removerProduto(int posicao){
-        Produto produto = carrinho[posicao];
-
         for(int i = posicao; i < qtdProdutos - 1; i++){
             carrinho[i] = carrinho[i + 1];
         }
