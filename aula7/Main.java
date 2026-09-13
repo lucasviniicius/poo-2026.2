@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("====LUCAS====");
         Conta c1 = new Conta("10", "1010", 0.0);
-        Cliente lucas = new Cliente("lucas", 18, c1);
+        //Cliente lucas = new Cliente("lucas", 18, c1);
 
         c1.deposito(1000.00);
 
@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("====JULIA====");
         Conta c2 = new Conta("20", "2020", 0.0);
-        Cliente julia = new Cliente("julia", 18, c2);
+        //Cliente julia = new Cliente("julia", 18, c2);
 
         c2.deposito(1000);
 
@@ -22,7 +22,7 @@ public class Main {
 
         System.out.println("====LUIZA====");
         Conta c3 = new Conta("30", "3030", 0.0);
-        Cliente luiza = new Cliente("luiza", 18, c3);
+        //Cliente luiza = new Cliente("luiza", 18, c3);
 
         c3.deposito(1000);
 
